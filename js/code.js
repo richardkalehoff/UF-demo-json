@@ -24,3 +24,10 @@ var AdvWeb2 = {
 var classInJsonFormat = JSON.stringify(AdvWeb2);
 
 var regularJavascript = JSON.parse(classInJsonFormat);
+
+// 
+//
+// $.getJSON('https://twitter.com/api/', function (jsonToJavaScriptCode) {
+//     console.log(jsonToJavaScriptCode);
+//     console.log(jsonToJavaScriptCode.instructor.fullname);
+// });
